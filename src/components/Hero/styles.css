@@ -1,0 +1,66 @@
+.hero {
+    height: 84vh;
+    margin: 3rem 6rem;
+    padding: 2rem;
+
+    background: var(--color-primary);
+    border-radius: 12px;
+}
+
+.hero__container {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__container__text_area {
+    height: 100%;
+    width: 70%;
+
+    background-color: var(--color-secondary);
+    border-radius: 12px;
+}
+
+.hero__container__text_area textarea {
+    height: 100%;
+    width: 100%;
+    font-family: var(--font-regular);
+
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+    font-size: large;
+
+    background-color: rgba(0,0,0,0);
+}
+
+.hero__container__controlls {
+    height: 100%;
+    width: 28%;
+    padding: 1rem;
+
+    /* display: flex; */
+
+    background-color: var(--color-secondary);
+    border-radius: 12px;
+}
+
+.hero__container__controlls input {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero__container__controlls button {
+    width: 100%;
+    border: none;
+    outline: none;
+
+    margin: 1rem 0 0 0;
+}
